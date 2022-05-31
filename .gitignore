@@ -3,3 +3,8 @@
 ################################################################################
 
 /examples/BlazingAppleConsumer.FontAwesome/BlazingAppleConsumer.FontAwesome/bin/Debug/net6.0
+/examples/BlazingAppleConsumer.FontAwesome/BlazingAppleConsumer.FontAwesome/obj
+/examples/BlazingAppleConsumer.FontAwesome/.vs
+/src/BlazingApple.FontAwesome/.vs
+/src/BlazingApple.FontAwesome/BlazingApple.FontAwesome/bin
+/src/BlazingApple.FontAwesome/BlazingApple.FontAwesome/obj

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingApple.FontAwesome", "BlazingApple.FontAwesome\BlazingApple.FontAwesome.csproj", "{1D081AD4-76BA-4DFE-9F6D-C608D58B9FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D081AD4-76BA-4DFE-9F6D-C608D58B9FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D081AD4-76BA-4DFE-9F6D-C608D58B9FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D081AD4-76BA-4DFE-9F6D-C608D58B9FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D081AD4-76BA-4DFE-9F6D-C608D58B9FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23EE48B4-43FB-4E62-901F-2AEDF0E734C7}
+	EndGlobalSection
+EndGlobal
