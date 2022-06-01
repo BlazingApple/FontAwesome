@@ -11,7 +11,7 @@ public class FontSearchService
     private const string _alphabet = "abcdefghijklmnopqrstuvwxyz";
     private const string _baseAddress = "https://api.fontawesome.com/";
     private readonly HttpClient _httpClient;
-    private string _version = "5.15.4";
+    private readonly string _version = "5.15.4";
 
     /// <summary>DI Constructor.</summary>
     public FontSearchService(IConfiguration config, HttpClient httpClient)
@@ -21,8 +21,7 @@ public class FontSearchService
         _version = section["Version"];
 
         _httpClient = httpClient;
-        _httpClient.BaseAddress = new Uri(_baseAddress);
-        if (bearerToken is not null)
+        if (!string.IsNullOrEmpty(bearerToken))
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", bearerToken);
     }
 
@@ -44,7 +43,7 @@ public class FontSearchService
             return Enumerable.Empty<FontAwesomeIcon>();
 
         string queryString = BuildSearchQuery(query, _version);
-        DataResults<FontAwesomeIcon>? response = await _httpClient.GetFromJsonAsync<DataResults<FontAwesomeIcon>>(queryString);
+        DataResults<FontAwesomeIcon>? response = await _httpClient.GetFromJsonAsync<DataResults<FontAwesomeIcon>>($"{_baseAddress}{queryString}");
 
         IEnumerable<FontAwesomeIcon>? results = response?.Results;
 

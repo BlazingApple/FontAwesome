@@ -12,9 +12,9 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/BlazingApple/FontAwesome</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/BlazingApple/FontAwesome</PackageProjectUrl>
-		<AssemblyVersion>0.3</AssemblyVersion>
-		<FileVersion>0.3</FileVersion>
-		<Version>0.3</Version>
+		<AssemblyVersion>0.4</AssemblyVersion>
+		<FileVersion>0.4</FileVersion>
+		<Version>0.4</Version>
 		<Copyright>2022 Blazing Apple</Copyright>
 		<Description>Supports dynamic web-based searching against up-to-date FontAwesome icons.</Description>
 	</PropertyGroup>
